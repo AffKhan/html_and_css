@@ -4,28 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Welcome to Affan's Component library.</h1>
-    <hr>
-    <h1>Learning Typography...</h1>
-    <h2>This is second biggest text</h2>
-    <p>This is the normal sized text.</p>
-    <small>This is relatively small text.</small>
+    <!-- Navigation bar -->
+    <!-- <h2>@Nav</h2> -->
 
+    <nav class=navigation>
+        <div class=nav-brand>My Portfolio.</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-inline">
+                <a class="link link-active" href="index.html">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="Projects.html">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="Blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-    <h1>Learning Containers...</h1>
-    <h3>Fluid container</h3>
-    <p>This is a container going from end to end.</p>
-    <h3>Fluid container</h3>
-    <p>This container will go to a specified width.</p>
-    <hr>
+    <!-- <h2>@Header</h2> -->
+    <header class="hero">
+        <img class="hero-img" src="Images/hero.svg" />
+        <h1 class="hero-heading"> About <span class="highlight">Me.</span></h1>
+    </header>
 
-    <h1>Links</h1>
+    <section class="section">
+        <div class="container container-center">
+        <h1>Technologies and Perks</h1>
+        <p>I am fimiliar with C, C++, HTML5, CSS and Javascript. Have developed great interpersonal skills and being a good listener helps to deliver great quality in everything that is assigned to me. At the same time have maintained a good track record academically and looking for internship opportunities to apply the skills and experiences and understand how the IT industry works in real life.</p>
+        </div>
+    </section>
 
-    <a href="/">Primary Link</a>
-    <a href="https://www.youtube.com/results?search_query=pohz">secondary Link</a>
+    <section class="section two">
+        <div class="container container-center">
+        <h1>Projects</h1>
+        <p>I would like to showcase my project works and thus, you can see them hosted online by clicking below.</p>
+        <a class="link link-primary" href="Projects.html">See projects</a>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>I am also working on some technical and non-technical blogs wherein I plan to document my journey or web development and learning in general.</p>
+        <a class="link link-secondary" href="https://www.youtube.com/results?search_query=pohz">Read my blog</a>
+        </div>
+    </section>
+    <section class="section two">
+        <div class="container container-center">
+        <h1>Random Thoughts</h1>
+        <p>Here I would be bringing down all my thoughts on whatever I think of. It will act as an intimate space for me to just put through my thoughts to the world.:)</p>
+        <a class="link link-secondary" href="/">Read more</a>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <div class="footer-header">My social media handels...</div>
+        <ul class="socials list-non-bullet">
+            <li class="list-inline link">
+            <a class="link link-secondary" href="https://instagram.com/affankhan___16?utm_medium=copy_link">Insta</a> </li>
+            <li class="list-inline">
+                <a class="link link-secondary" href="https://www.linkedin.com/in/affan-khan-580469197">LinkedIn</a></li>
+            <li class="list-inline">
+                <a class="link link-secondary" href="https://www.facebook.com/profile.php?id=100005727376904">Facebook</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
